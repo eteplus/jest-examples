@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "baseUrl": ".",
+    "target": "ES5",
+    "module": "ESNext",
+    "strict": true,
+    "noEmit": false,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "noUnusedLocals": true,
+    "emitDecoratorMetadata": true,
+    "noImplicitThis": false,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "types": ["jest", "node"],
+    "lib": ["ESNext", "DOM", "DOM.Iterable", "ScriptHost"],
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "types/**/*.d.ts", "__tests__/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
